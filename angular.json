@@ -4,6 +4,9 @@
   "newProjectRoot": "projects",
   "projects": {
     "control_work_20_Macaroons_angular": {
+      "i18n": {
+        "sourceLocale": "ru"
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {

@@ -1,0 +1,13 @@
+<div class="cards-item" >
+  <div class="cards-item-image">
+    <img src="../../../assets/images/{{product.image}}" alt="image">
+  </div>
+  <div class="cards-item-title">{{product.title}}</div>
+  <div class="cards-item-action">
+    <div class="action-amount">
+      <div class="action-amount-pieces">1 pcs.</div>
+      <div class="action-amount-price">{{product.price | currency: '$'}}</div>
+    </div>
+    <button class="btn cards__btn" hoverBtn (click)="addProductToCart()">Order</button>
+  </div>
+</div>
